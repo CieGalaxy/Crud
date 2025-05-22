@@ -9,7 +9,7 @@ const app = express()
 
 const port = process.env.port || 5005
  
-app.use(CORS({ credentials : false , origin : "https://crud-backend-474k.onrender.com" }))
+app.use(CORS({ credentials : false , origin : "http://localhost:5173" }))
 app.use(express.json())
 app.use(express.urlencoded({ extended : true }))
 
