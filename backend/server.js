@@ -9,7 +9,7 @@ const app = express()
 
 const port = process.env.port || 5005
  
-app.use(CORS({ credentials : false , origin : "http://localhost:5173" }))
+app.use(CORS({ credentials : false , origin : "https://todos-1-b015f.web.app" }))
 app.use(express.json())
 app.use(express.urlencoded({ extended : true }))
 
